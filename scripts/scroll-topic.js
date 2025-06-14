@@ -16,3 +16,25 @@ window.addEventListener('scroll', () => {
 
     lastPosY = posY;
 });
+
+let hideMenuBtn = document.querySelector(".hide-menu");
+let menu = document.querySelector(".menu");
+let menuAdaptive = document.querySelector(".menu-adaptive");
+let lastDisplayMenu = menu.style.display;
+let lastDisplayMenuAdaptive = menuAdaptive.style.display;
+hideMenuBtn.onclick = () => {
+    console.log(hideMenuBtn)
+    if (hideMenuBtn.textContent == "Скрыть") {
+        hideMenuBtn.textContent = "Показать";
+
+        menu.style.display = "none"
+        menuAdaptive.style.display = "none"
+    }
+    else if (hideMenuBtn.textContent == "Показать") {
+        hideMenuBtn.textContent = "Скрыть";
+
+        menu.style.display = lastDisplayMenu
+        menuAdaptive.style.display = lastDisplayMenuAdaptive
+
+    }
+}
