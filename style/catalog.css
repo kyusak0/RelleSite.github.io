@@ -51,42 +51,16 @@ header a {
     width: 100%;
 }
 
-.menu-adaptive{
+.menu-adaptive {
     display: none;
     padding-inline-start: 0;
     margin-block-start: 0;
     border-bottom: 1px solid #FFFFFF26;
 }
 
-.menu-adaptive li{
+.menu-adaptive li {
     padding: 10px;
-    width: 80%;
-}
-
-.sub-menu {
-    border-radius: 4px 12px 12px 12px;
-    background-color: #ffffff;
-    padding: 12px 8px;
-    display: none;
-    position:fixed;
-    margin: 0 -10px;
-    border: 1px solid black;
-}
-
-.sub-menu a {
-    color: #333333 !important;
-}
-
-.open-sub-menu:hover>.sub-menu {
-    display: block;
-}
-
-.open-sub-menu::after {
-    content: "˅";
-}
-
-.open-sub-menu:hover::after {
-    content: "^";
+    width: 100%;
 }
 
 .nav-toolbar .logo {
@@ -104,76 +78,6 @@ header a {
     font-size: 10px;
     opacity: 0.6;
     font-weight: 400;
-}
-
-.nav-toolbar .menu {
-    display: flex;
-    gap: 4px
-}
-
-.nav-toolbar .menu li {
-    padding: 8px 16px;
-}
-
-.nav-toolbar .tel {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0%;
-    vertical-align: bottom;
-
-}
-
-header .nav-toolbar .tel .tel-open {
-    color: #ffffff;
-
-}
-
-.nav-toolbar .tel .tel-open {
-    background-color: #ffffff00;
-    font-weight: 600;
-    border: 1px solid #367E62;
-    border-radius: 12px;
-    padding: 12px;
-    margin-left: 20px;
-    transition: 0.5s;
-}
-
-.nav-toolbar .tel .tel-open:hover {
-    background-color: #367E62;
-    color: #ffffff;
-    transition: 0.5s;
-}
-
-.scrollDown{
-    transform: translateY(-500px);
-    transition: 0.5s;
-}
-
-.scrollUp{
-    transform: translateY(0);
-    transition: 0.5s;
-}
-
-.lowbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.source {
-    padding: 40px 60px 24px 60px;
-    opacity: 0.6;
-}
-
-.hide-menu{
-    font-size: 20px;
-}
-
-h1 {
-    margin-top: 200px;
-    padding: 0 60px;
-    font-size: 52px;
 }
 
 #catalog {
@@ -270,50 +174,17 @@ h1 {
     transition: 0.5s ease;
 }
 
-/*хочу сюда форму очееень надо!!!!!!!*/
-
-footer {
-    padding: 40px 60px;
-    color: #333333;
-    font-size: 10px;
-    line-height: 14px;
+.big-image-card-back {
+    background-color: #333333a2;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;    z-index: 100;
 }
 
-footer a {
-    color: #333333;
-}
-
-.thanks-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 60px;
-}
-
-.thanks-container .thanks .thanks-logo a {
-    color: #9F229F;
-    font-weight: 400;
-    letter-spacing: 0%;
-    vertical-align: bottom;
-}
-
-@media(max-width: 1300px) {
-    .menu-adaptive{
-        display: block;
-        text-align: center;
-    }
-
-    .nav-toolbar .logo{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    nav{
-        display: none;
-    }
-
-    .sub-menu {
-        width: 150px;
-        margin: -60px 0;
-        
-    }
+.big-image-card {
+    height: 80vh;
+    position: fixed;
+    top: 10vh;
+    left: 38%;
 }
