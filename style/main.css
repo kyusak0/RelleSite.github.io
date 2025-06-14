@@ -37,6 +37,9 @@ h1 {
     margin-top: 180px;
     display: flex; 
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
 }
 
 .hero img{
