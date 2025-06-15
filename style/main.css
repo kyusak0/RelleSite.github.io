@@ -28,7 +28,6 @@ header a {
 }
 
 h1 {
-    margin-top: 150px;
     padding: 0 60px;
     font-size: 52px;
 }
@@ -37,13 +36,12 @@ h1 {
     margin-top: 180px;
     display: flex; 
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .hero img{
     border-radius: 20px;
+    width: 80%;
 }
 
 .nav-toolbar {
@@ -221,14 +219,24 @@ footer a {
         display: flex;
         flex-wrap: wrap;
     }
+    .hero{
+        text-align: center;
+        flex-wrap: wrap;
+    }
 
     nav {
         display: none;
     }
 
     .sub-menu {
-        width: 150px;
-        margin: -60px 0;
-
+        border-radius: 4px 4px 12px 12px;
+        margin-left: 23%;
+        padding-inline-start: 0;
     }
+}
+
+@media(max-width: 600px){
+h1{
+    font-size: 32px
+}
 }
