@@ -42,6 +42,7 @@ h1 {
 .hero img {
     border-radius: 20px;
     width: 80%;
+    max-width: 600px;
 }
 
 .nav-toolbar {
