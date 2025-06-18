@@ -1,2 +1,3 @@
 Disallow: /404.html
 Disallow: /catalog.html
+Disallow: /admin.html
