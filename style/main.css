@@ -60,6 +60,10 @@ h1 {
     align-items: center;
 }
 
+.hide-menu{
+    display: none;
+}
+
 .source {
     padding: 40px 60px 24px 60px;
     opacity: 0.6;
@@ -356,6 +360,10 @@ footer a {
     .menu-adaptive {
         display: block;
         text-align: center;
+    }
+
+    .hide-menu{
+    display: inline;
     }
 
     .nav-toolbar .logo {
