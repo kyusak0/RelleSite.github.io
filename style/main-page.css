@@ -386,7 +386,7 @@
 }
 
 .all-certificates a::after {
-    content: url(images/certificates/arrow.svg);
+    content: url("images/right arrow.svg");
 }
 
 .all-certificates a {
