@@ -1,21 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relle Site</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/main.css" type="text/css">
+    <link rel="stylesheet" href="style/main-page.css" type="text/css">
+
 </head>
+
 <body>
     <header>
-        <p>Cfq</p>
-        <h1>Relle</h1>
-        <a href="catalog.html">к каталогу</a>
+        <div class="topic">
+            <div class="nav-toolbar">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo light.svg" alt="Relle-logo">
+                    </a>
+                    <p>Коммерческие напольные
+                        покрытия
+                        различного назначения.</p>
+                </div>
+
+                <nav>
+                    <ul class="menu">
+                        <li><a href="catalog.html">Каталоги</a></li>
+                        <li><a href="diler.html">Дилерам</a></li>
+                        <li><a href="project.html">Проекты</a></li>
+                        <li class="open-sub-menu">
+                            <a href="about-us.html">О компании </a>
+                            <ul class="sub-menu">
+                                <li><a href="certificate.html">Сертификаты соответствия</a></li>
+                                <li><a href="production.html">Производство</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+                <span class="tel">8 (800) 312-32-32 <button class="tel-open">Звонок</button></span>
+            </div>
+            <ul class="menu-adaptive">
+                <li><a href="catalog.html">Каталоги</a></li>
+                <li><a href="diler.html">Дилерам</a></li>
+                <li><a href="project.html">Проекты</a></li>
+                <li class="open-sub-menu">
+                    <a href="about-us.html">О компании </a>
+                    <ul class="sub-menu">
+                        <li><a href="certificate.html">Сертификаты соответствия</a></li>
+                        <li><a href="production.html">Производство</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+            <div class="lowbar">
+                <span class="hide-menu">Скрыть</span>
+            </div>
+        </div>
+        <div class="hero">
+            <!--
+            banner. saiado's part
+            -->
+            <h2>Coming soon!</h2>
+        </div>
     </header>
     <main>
+        <section id="catalog">
+            <!--
+            small catalog. saiado's part
+            -->
+            <h2>Coming soon!</h2>
 
+        </section>
+        <section id="covering">
+            <div class="floor">
+                <div class="floor-text">
+                    <h2 class="floor-title">Наши напольные покрытия решают любую задачу</h2>
+                    <p class="floor-sphere">>40 сфер применения</p>
+                </div>
+                <p class="floor-relle">Relle - ведущий поставщик современных отделочных материалов, потолочных систем и
+                    напольных покрытий. Предоставим специализированные и индивидуальные решения для проектов любой
+                    сложности.
+                </p>
+                <div class="floor-card-menu">
+                    <div class="floor-card-1 floor-card">
+                        <h2>Образовательные объекты</h2>
+                        <p>Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах</p>
+                    </div>
+                    <div class="floor-card-2 floor-card">
+                        <h2>Склады и промышленные объекты</h2>
+                        <p>Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах</p>
+                    </div>
+                    <div class="floor-card-3 floor-card">
+                        <h2>Медицинские объекты</h2>
+                        <p>Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах</p>
+                    </div>
+                    <div class="floor-card-4 floor-card">
+                        <h2>Спортивные объекты</h2>
+                        <p>Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах</p>
+                    </div>
+                    <div class="floor-card-5 floor-card">
+                        <h2>Ковровые покрытия</h2>
+                        <p>Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacts">
+            <div class="form-container">
+                <div class="left-block">
+                    <button class="consult-btn">Быстрая консультация</button>
+                    <h1 class="headline">Остались вопросы<br>к нам?</h1>
+                    <p class="description">
+                        Оставьте ваши данные и мы вам перезвоним. <br>
+                        Наши менеджеры будут рады ответить на вопросы<br>
+                        и при необходимости оформить заказ
+                    </p>
+                </div>
+                <div class="form-block">
+                    <h2>Форма обратной связи</h2>
+                    <form>
+                        <input type="text" placeholder="Ваше имя*" required>
+                        <input type="tel" placeholder="Номер телефона*" required>
+                        <div class="flex">
+                            <p class="policy-text">
+                                Нажимая кнопку вы соглашаетесь<br>
+                                с <a href="#">политикой конфиденциальности</a>
+                            </p>
+                            <button type="submit">Отправить форму →</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </section>
+        <div class="popup-overlay" id="popup">
+            <div class="popup-content">
+                <p>Спасибо! Ваша заявка отправлена.</p>
+                <button id="closePopup">Закрыть</button>
+            </div>
+        </div>
+        <section id="portfolio" class="portfolio-slider">
+            <div class="portfolio-slider-container">
+                <div class="certificates-header">
+                    <div class="certificates-title">
+                        <h2>Фотографии выполненных нами работ</h2>
+                    </div>
+                    <div class="all-proects">
+                        <a href="#">
+                            300+ проектов
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="slider-btn slider-prev"><img src="images/our-works/slider-left-arrow.svg"
+                            alt="slider"></button>
+
+                    <div class="slider-nav">
+                        <div class="slider-progress">
+                            <div class="slider-progress-bar"></div>
+                        </div>
+                    </div>
+
+                    <button class="slider-btn slider-next"><img src="images/our-works/slider-right-arrow.svg"
+                            alt="slider"></button>
+                </div>
+
+                <ul class="portfolio-list">
+                    <li class="portfolio-item">
+                        <img src="images/our-works/our works1.png" alt="Наша работа 1" loading="lazy">
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-content">
+                                <a class="portfolio-arrow" href="#">
+                                    <img src="images/upper right arrow.svg" alt="arrow">
+                                </a>
+                                <p>Тут нужно написать краткую информацию о объекте, возможно указать адрес</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="images/our-works/our works2.png" alt="Наша работа 2" loading="lazy">
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-content">
+                                <a class="portfolio-arrow" href="#">
+                                    <img src="images/upper right arrow.svg" alt="arrow">
+                                </a>
+                                <p>Тут нужно написать краткую информацию о объекте, возможно указать адрес</p>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="images/our-works/our works3.png" alt="Наша работа 3" loading="lazy">
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-content">
+                                <a class="portfolio-arrow" href="#">
+                                    <img src="images/upper right arrow.svg" alt="arrow">
+                                </a>
+                                <p>Тут нужно написать краткую информацию о объекте, возможно указать адрес</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <img src="images/our-works/our works4.png" alt="Наша работа 4" loading="lazy">
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-content">
+                                <a class="portfolio-arrow" href="#">
+                                    <img src="images/upper right arrow.svg" alt="arrow">
+                                </a>
+                                <p>Тут нужно написать краткую информацию о объекте, возможно указать адрес</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <!-- Фоновое изображение с размытием и затемнением -->
+                        <img class="bg-image" src="images/our-works/our works4.png" alt="Фон" loading="lazy">
+                        <div class="bg-overlay"></div>
+
+                        <!-- Контент поверх фона -->
+                        <div class="portfolio-caption">
+                            <div class="portfolio-arrow">
+                                <img src="images/upper right arrow.svg" alt="Стрелка">
+                            </div>
+                            <span class="view-all-text">Смотреть все проекты</span>
+                            <a href="#" class="all-proects-link">300+ проектов</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <seciton id="certificates" class="certificates">
+            <div class="certificates-container">
+                <div class="certificates-header">
+                    <div class="certificates-title">
+                        <h2>Наши сертификаты</h2>
+                    </div>
+                    <div class="all-certificates">
+                        <a href="#">
+                            Все сертификаты
+                        </a>
+                    </div>
+                </div>
+
+                <div class="certificates-slider">
+                    <ul class="certificate-list">
+                        <li class="certificate-list-item">
+                            <img src="images/certificates/certif1.png"
+                                alt="Сертификат SGS - Однородные полы из ПВХ (RoHS)">
+                            <div class="certificate-caption">
+                                <a href="#">
+                                    Сертификат SGS - Однородные полы из...
+                                    <div class="arrow-box">
+                                        <img src="images/certificates/arrow.svg" alt="arrow">
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="certificate-list-item">
+                            <img src="images/certificates/certif2.png"
+                                alt="Сертификат SGS-ПВХ однородный пол (антистатический)">
+                            <div class="certificate-caption">
+                                <a href="#">
+                                    Сертификат SGS-ПВХ однородный пол...
+                                    <div class="arrow-box">
+                                        <img src="images/certificates/arrow.svg" alt="arrow">
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="certificate-list-item">
+                            <img src="images/certificates/certif3.png"
+                                alt="Сертификат Intertek-ПВХ однородный пол (антибактериальный)">
+                            <div class="certificate-caption">
+                                <a href="#">
+                                    Сертификат Intertek-ПВХ однородный пол...
+                                    <div class="arrow-box">
+                                        <img src="images/certificates/arrow.svg" alt="arrow">
+                                    </div>
+
+                                </a>
+                            </div>
+                        </li>
+                        <li class="certificate-list-item">
+                            <img src="images/certificates/certif4.png" alt="Сертификат CE - Гетерогенные полы из ПВХ">
+                            <div class="certificate-caption">
+                                <a href="#">
+                                    Сертификат CE - Гетерогенные полы...
+                                    <div class="arrow-box">
+                                        <img src="images/certificates/arrow.svg" alt="arrow">
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="slider-nav">
+                        <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </seciton>
+        <section id="modern">
+
+            <!--
+            modern block. Ruzilya's part.
+            -->
+            <h2>Coming soon!</h2>
+
+        </section>
+        <section>
+
+            <div class="form-container">
+                <div class="left-block">
+                    <button class="consult-btn">Быстрая консультация</button>
+                    <h1 class="headline">Остались вопросы<br>к нам?</h1>
+                    <p class="description">
+                        Оставьте ваши данные и мы вам перезвоним. <br>
+                        Наши менеджеры будут рады ответить на вопросы<br>
+                        и при необходимости оформить заказ
+                    </p>
+                </div>
+                <div class="form-block">
+                    <h2>Форма обратной связи</h2>
+                    <form>
+                        <input type="text" placeholder="Ваше имя*" required>
+                        <input type="tel" placeholder="Номер телефона*" required>
+                        <div class="flex">
+                            <p class="policy-text">
+                                Нажимая кнопку вы соглашаетесь<br>
+                                с <a href="#">политикой конфиденциальности</a>
+                            </p>
+                            <button type="submit">Отправить форму →</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
-        
+        <div class="nav-toolbar">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo dark.svg" alt="Relle-logo">
+                </a>
+                <p> Коммерческие напольные покрытия
+                    различного назначения.</p>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Каталоги</a></li>
+                    <li><a href="#">Дилерам</a></li>
+                    <li><a href="#">Проекты</a></li>
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <span class="tel">8 (800) 312-32-32 <button class="tel-open">Звонок</button></span>
+
+        </div>
+        <div class="thanks-container">
+            <span class="copyright">© Все права защищены</span>
+            <span class="thanks">Разработка и продвижение -
+                <span class="thanks-logo"> <a href="#"> VELVET </a></span>
+            </span>
+        </div>
     </footer>
+    <script src="scripts/scroll-topic.js"></script>
+    <script src="scripts/inputmask.dependencyLib.min.js"></script>
+    <script src="scripts/inputmask.min.js"></script>
+    <script src="scripts/validation.js"></script>
+    <script src="scripts/send-form.js"></script>
+    <script src="scripts/slider-porfolio.js"></script>
+    <script src="scripts/slider-certificates.js"></script>
 </body>
+
 </html>
