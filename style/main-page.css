@@ -60,7 +60,7 @@
     border-radius: 77px 25px 77px 25px;
     width: 810px;
     height: 637px;
-    background-image: url(img/card-1.png);
+    background-image: url("../images/coverings/education covering.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -69,7 +69,7 @@
     border-radius: 77px 25px 77px 25px;
     width: 810px;
     height: 637px;
-    background-image: url(img/card-2.png);
+    background-image: url("../images/coverings/store covering.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -78,7 +78,7 @@
     border-radius: 77px 25px 77px 25px;
     width: 514px;
     height: 637px;
-    background-image: url(img/card-3.png);
+    background-image: url("../images/coverings/medicine covering.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -87,7 +87,7 @@
     border-radius: 77px 25px 77px 25px;
     width: 514px;
     height: 637px;
-    background-image: url(img/card-4.png);
+    background-image: url("../images/coverings/stadion covering.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -96,7 +96,7 @@
     border-radius: 77px 25px 77px 25px;
     width: 514px;
     height: 637px;
-    background-image: url(img/card-5.png);
+    background-image: url("../images/coverings/carpet covering.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
