@@ -58,6 +58,3 @@ document.addEventListener('DOMContentLoaded', function() {
     // Инициализация
     updateProgress();
 });
-
-window.addEventListener('DOMContentLoaded', initSlider);
-window.addEventListener('resize', initSlider);
