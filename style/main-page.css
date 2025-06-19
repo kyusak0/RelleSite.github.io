@@ -469,6 +469,9 @@
     width: 20px;
 }
 
+#modern{
+    max-width: 2000px
+}
 
 .modern-title-block {
     display: flex;
