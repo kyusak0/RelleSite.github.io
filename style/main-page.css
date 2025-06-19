@@ -464,11 +464,6 @@
     width: 20px;
 }
 
-#modern{
-    max-width: 2000px;
-    margin: 0 auto;
-}
-
 .modern-title-block {
     display: flex;
     justify-content: space-between;
@@ -582,6 +577,18 @@
 }
 
 @media (max-width: 768px) {
+    .floor-text {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    .floor-title {
+        max-width: 480px;
+        width: 80%;
+        font-size: 24px !important;
+    }
+    
     .portfolio-item:last-child .portfolio-caption .portfolio-arrow {
         width: 40px;
         height: 40px;
