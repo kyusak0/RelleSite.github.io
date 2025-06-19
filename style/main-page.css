@@ -353,8 +353,6 @@
     padding: 12px 24px;
 }
 
-
-
 /* сертификаты */
 .certificates {
     background-color: #EEEEEE;
@@ -398,9 +396,6 @@
     align-items: center;
     gap: 8px;
 }
-
-
-
 
 .certificate-list {
     display: flex;
@@ -470,7 +465,7 @@
 }
 
 #modern{
-    max-width: 2000px
+    max-width: 2000px;
 }
 
 .modern-title-block {
