@@ -466,6 +466,7 @@
 
 #modern{
     max-width: 2000px;
+    margin: 0 auto;
 }
 
 .modern-title-block {
