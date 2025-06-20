@@ -17,4 +17,4 @@ const images = [
   }
   
   changeBackground(); // Установка первого изображения
-  setInterval(changeBackground, 6000); // Меняем каждые 5 секунд
+  setInterval(changeBackground, 1000); // Меняем каждые 5 секунд

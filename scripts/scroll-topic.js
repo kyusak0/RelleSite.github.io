@@ -38,3 +38,11 @@ hideMenuBtn.onclick = () => {
 
     }
 }
+
+window.addEventListener('scroll', function() {
+    if (window.scrollY < 1000) { /* Пороговое значение прокрутки */
+      topic.classList.add('topic-light');
+    } else {
+      topic.classList.remove('topic-light');
+    }
+  });
