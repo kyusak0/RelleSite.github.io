@@ -1,9 +1,17 @@
+#catalog{
+    background-color: #333333;
+    padding: 0 60px 120px 60px;
+}
+
 #catalog .catalog-title{
     display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 #catalog .catalog-title h2{
     font-size: 52px;
+    color: #fff;
 }
 
 #catalog ul {
@@ -80,7 +88,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: auto 0;
     color: #ffffff;
     font-weight: 600;
     padding: 16px 24px;
@@ -177,7 +185,7 @@
 }
 
 .floor-card-2 {
-    background-image: url("../images/coverings/store covering.png");
+    background-image: url("../images/coverings/education covering.png");
 }
 
 .floor-card-3 {

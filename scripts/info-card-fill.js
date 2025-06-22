@@ -3,7 +3,7 @@ import { products, certificates, portfolio } from './database.js';
 
 
 
-let fill = (datalist, length = datalist.length) => {
+let fill = (place, datalist, length = datalist.length) => {
     for (let i = 0; i < length; i++) {
         let card = document.createElement("li");
         card.classList.add("card");
@@ -41,18 +41,21 @@ let fill = (datalist, length = datalist.length) => {
 
         card.append(cardImage, cardTitle, cardType, cardBtnsContainer)
 
-        catalog.append(card);
+        place.append(card);
     }
 }
 
 let catalog = document.querySelector(".full-catalog .cards");
 let mainPageCatalog = document.querySelector(".main-page-catalog .cards");
-if(catalog){
-    catalog.addEventListener("onload", fill(products));
+let mainPageCertificate = document.querySelector(".certificates");
+
+if (catalog) {
+    catalog.addEventListener("onload", fill(catalog, products));
 }
-else if(mainPageCatalog){
-    mainPageCatalog.addEventListener("onload", fill(products, 4));
-}
+else if (mainPageCatalog) {
+    mainPageCatalog.addEventListener("onload", fill(mainPageCatalog, products, 4));
+  /*  mainPageCertificate.addEventListener("onload", fill(mainPageCertificate, certificates, 4))
+*/}
 
 
 

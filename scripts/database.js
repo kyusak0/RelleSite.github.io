@@ -53,22 +53,46 @@ const certificates = [
 const portfolio = [
     {
         title: "",
-        type:  "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
+        type: "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
         image: "../images/our-works/our works1.png",
     }, {
         title: "",
-        type:  "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
+        type: "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
         image: "../images/our-works/our works2.png",
     }, {
         title: "",
-        type:  "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
+        type: "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
         image: "../images/our-works/our works3.png",
     }, {
         title: "",
-        type:  "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
+        type: "Тут нужно написать краткую информацию о объекте, возможно указать адрес",
         image: "../images/our-works/our works4.png",
     },
 ];
 
+const coverings = [
+    {
+        title: "Образовательные объекты",
+        type: "Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах",
+        image: "../images/coverings/education covering.png",
+    }, {
+        title: "Склады и промышленные объекты",
+        type: "Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах",
+        image: "../images/coverings/education covering.png",
+    }, {
+        title: "Медицинские объекты",
+        type: "Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах",
+        image: "../images/coverings/medicine covering.png",
+    }, {
+        title: "Спортивные объекты",
+        type: "Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах",
+        image: "../images/coverings/stadion covering.png",
+    }, {
+        title: "Ковровые покрытия",
+        type: "Работаем по 10+ странам. Офисы в 15 горох России и за рубежом. Склады в 3х странах",
+        image: "../images/coverings/carpet covering.png",
+    },
+];
 
-export { products, certificates, portfolio };
+
+export { products, certificates, portfolio, coverings };
