@@ -2,35 +2,35 @@ const products = [
     {
         title: "Relle vinyl tiles",
         type: "Виниловые покрытия",
-        image: "../images/catalog/vinyl.png",
+        image: "images/catalog/vinyl.png",
     }, {
         title: "Yibel Wooden",
         type: "Гетерагенные напольные покрытия",
-        image: "../images/catalog/heterogeneous.png",
+        image: "images/catalog/heterogeneous.png",
     }, {
         title: "Canna",
         type: "Гомогенные напольные покрытия",
-        image: "../images/catalog/Canna.png",
+        image: "images/catalog/Canna.png",
     }, {
         title: "Jasmine",
         type: "Гомогенные напольные покрытия",
-        image: "../images/catalog/jasmine.png",
+        image: "images/catalog/jasmine.png",
     }, {
         title: "Canna",
         type: "Гомогенные напольные покрытия",
-        image: "../images/catalog/Canna.png",
+        image: "images/catalog/Canna.png",
     }, {
         title: "Relle vinyl tiles",
         type: "Виниловые покрытия",
-        image: "../images/catalog/vinyl.png",
+        image: "images/catalog/vinyl.png",
     }, {
         title: "Jasmine",
         type: "Гомогенные напольные покрытия",
-        image: "../images/catalog/jasmine.png",
+        image: "images/catalog/jasmine.png",
     }, {
         title: "Yibel Wooden",
         type: "Гетерагенные напольные покрытия",
-        image: "../images/catalog/heterogeneous.png",
+        image: "images/catalog/heterogeneous.png",
     },
 ];
 
