@@ -1,4 +1,4 @@
-import { products, certificates } from './database.js';
+import { products, certificates, portfolio } from './database.js';
 
 let editPanel = document.querySelector(".editor");
 
@@ -16,9 +16,7 @@ editNavs.forEach(editNav => {
     }
 });
 
-
-
-let catalogFill = (type) => {
+let adminFill = (type) => {
 
     let element = document.createElement("li");
     element.classList.add("element");
@@ -71,12 +69,12 @@ let catalogFill = (type) => {
     editPanel.append(element)
 };
 products.forEach(product => {
-    catalogFill(product);
+    adminFill(product);
 });
 let newCardBtn = document.createElement("li");
-    newCardBtn.classList.add("new");
-    newCardBtn.textContent = "+";
-    editPanel.append(newCardBtn);
+newCardBtn.classList.add("new");
+newCardBtn.textContent = "+";
+editPanel.append(newCardBtn);
 
 
 let editBtns = document.querySelectorAll(".edit");
@@ -289,12 +287,16 @@ let adminEdit = function (title) {
     switch (title) {
         case "Каталоги":
             products.forEach(product => {
-                catalogFill(product)
+                adminFill(product)
             });
             break;
         case "Сертификаты":
             certificates.forEach(certificate => {
-                catalogFill(certificate)
+                adminFill(certificate)
+            }); break;
+        case "Портфолио":
+            portfolio.forEach(portfolio => {
+                adminFill(portfolio)
             });
             break;
         default:
