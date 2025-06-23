@@ -1,4 +1,4 @@
-import { products, certificates, portfolio } from './database.js';
+import { products } from './database.js';
 
 
 let fill = (place, datalist, length = datalist.length) => {
@@ -18,8 +18,7 @@ let fill = (place, datalist, length = datalist.length) => {
         cardType.classList.add("card-text");
         cardType.textContent = datalist[i].type;
         let cardBtnsContainer = document.createElement("div");
-        if (place == products) {
-
+        
             cardBtnsContainer.classList.add("card-btns");
 
             let openCardBtn = document.createElement("button");
@@ -37,7 +36,7 @@ let fill = (place, datalist, length = datalist.length) => {
             sentEmailBtn.textContent = "Получить каталог на E-mail";
 
             cardBtnsContainer.append(openCardBtn, sentEmailBtn);
-        }
+        
 
 
         card.append(cardImage, cardTitle, cardType, cardBtnsContainer)
@@ -48,14 +47,13 @@ let fill = (place, datalist, length = datalist.length) => {
 
 let catalog = document.querySelector(".full-catalog .cards");
 let mainPageCatalog = document.querySelector(".main-page-catalog .cards");
-let mainPageCertificate = document.querySelector(".certificates");
 
 if (catalog) {
     catalog.addEventListener("onload", fill(catalog, products));
 }
 else if (mainPageCatalog) {
     mainPageCatalog.addEventListener("onload", fill(mainPageCatalog, products, 4));
-    /*mainPageCertificate.addEventListener("onload", fill(mainPageCertificate, certificates, 4))*/
+    
 }
 
 
