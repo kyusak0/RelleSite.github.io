@@ -460,7 +460,7 @@ footer a {
     }
 
     .form-container{
-        flex-direction: column;
+        flex-direction: column !important;
         align-items: center;
 
     .headline {
