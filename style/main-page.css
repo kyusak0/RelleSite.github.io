@@ -10,6 +10,10 @@
     margin: 0 auto;
 }
 
+#catalog .catalog-title a {
+    color: #ffffff;
+}
+
 #catalog .catalog-title h2{
     font-size: 52px;
     color: #fff;
