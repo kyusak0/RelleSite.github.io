@@ -1,4 +1,4 @@
-document.getElementById('contact-form').addEventListener('submit', function(e) {
+document.querySelectorAll('.contact-form').addEventListener('submit', function(e) {
     e.preventDefault(); // Останавливаем отправку формы
 
     const nameInput = document.getElementById('name');
